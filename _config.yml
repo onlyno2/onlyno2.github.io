@@ -199,3 +199,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ['en', 'ja', 'vi']
+exclude_from_localizations: ['javascript', 'images', 'css']
